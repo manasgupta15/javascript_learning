@@ -49,3 +49,30 @@ function myFunc() {
 }
 
 myFunc();
+
+
+
+// **********************************
+
+// stack based memory(primitive)
+let myYoutubeName = "hiteshChoudhary.com";
+let anotherName = myYoutubeName;
+anotherName = "chaeorcode";
+console.log(anotherName);
+console.log(myYoutubeName);
+
+
+
+
+// heap based memory (non-primitive)
+let user22 = {
+    email : "user@google.com",
+    upi : "user@ybl"
+};
+
+let user23 = user22;
+user23.email = "userr@google.com";
+console.log(user22);
+console.log(user22.email);
+console.log(user23.email);
+
